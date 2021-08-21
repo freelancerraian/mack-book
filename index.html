@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+
+    <!-- custom css file -->
+    <link rel="stylesheet" href="style.css">
+
+    <title>Mac-Book</title>
+</head>
+
+<body>
+    <section>
+        <div class="cards mt-5">
+            <div class="container">
+                <div class="row g-5">
+
+                    <!-- Card Img sec start -->
+                    <div class="col-lg-6">
+                        <div class="w-100">
+                            <img class="img-fluid" src="img/mac.png" alt="">
+                        </div>
+                    </div>
+                    <!-- Card Img sec end -->
+
+                    <!-- Card Content sec start -->
+                    <div class="col-lg-6">
+                        <div class="card-content">
+                            <h2 class="mb-3 fs-1">Customize your Blue 24-inch iMac With Apple M1 Chip</h2>
+                            <p class="mb-3 fs-5">
+                                Apple M1 chip with 8-core CPU with 4 performance cores and 4 effciency cores, 7-cores GPU,
+                                and
+                                16-core Neural Engine 8GB unfied memory 256GB SSD storage Two Thunderbolt / USB 4 ports
+                                Magic
+                                Mouse Magic Keyboard-US English
+                            </p>
+                            <div class="memory__btn-groph mb-5">
+                                <h4>Memory</h4>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark me-3" id="memory8Gb">8 GB Unifid
+                                        memory</button>
+                                    <button class="btn btn-outline-dark me-3" id="memory16Gb">16 GB Unifid
+                                        memory</button>
+                                </div>
+                            </div>
+                            <div class="storage__btn-groph mb-5">
+                                <h4>Storage</h4>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark me-3" id="storage256Gb">256GB SSD
+                                        storage</button>
+                                    <button class="btn btn-outline-dark me-3" id="storage512Gb">512GB SSD
+                                        storage</button>
+                                    <button class="btn btn-outline-dark me-3" id="storage1Tb">1TB SSD storage</button>
+                                </div>
+                            </div>
+                            <div class="delivary__btn-groph mb-5">
+                                <h4>Choose Your delivary option</h4>
+                                <div class="d-flex">
+                                    <button class="btn btn-outline-dark me-3" id="delivaryFree">Friday, Aug 25 FREE Prime
+                                        Delivery</button>
+                                    <button class="btn btn-outline-dark me-3" id="delivaryFast">Friday, Aug 21 Delivery
+                                        charge 20$</button>
+                                </div>
+                            </div>
+                            <div class="pricing w-75">
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <h4>Best Price</h4>
+                                        <h4>$<span id="bestPrice">1299</span></h4>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <h4>Extra Memory Cost</h4>
+                                        <h4>$<span id="memoryPrice">0</span></h4>
+                                    </li>
+                                    <li class="list-group-item d-flex justify-content-between">
+                                        <h4>Extra Storage Cost</h4>
+                                        <h4>$<span id="storagePrice">0</span></h4>
+                                    </li>
+                                    <li class="list-group-item hard-border d-flex justify-content-between">
+                                        <h4>Delivery Charge</h4>
+                                        <h4>$<span id="deliveryPrice">0</span></h4>
+                                    </li>
+                                    <li class="list-group-item hard-border d-flex justify-content-between">
+                                        <h4>Total Price</h4>
+                                        <h4>$<span id="totalPriceId">1299</span></h4>
+                                    </li>
+                                </ul>
+                                <div class="promo my-5">
+                                    <h4>Add Promo Code</h4>
+                                    <div class="input-groph d-flex">
+                                        <input id="promoInput" type="text" class="me-2 w-75">
+                                        <button id="promoBtn" type="button" class="btn btn-danger w-25">Apply</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- Card Content sec end -->
+
+                </div>
+            </div>
+        </div>
+        <hr class="mx-auto w-75">
+        <h1 class="text-center">Total $<span id="fullTotal">1299</span></h1>
+    </section>
+
+    <!-- Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj"
+        crossorigin="anonymous">
+    </script>
+
+    <!-- Custom JavaScript file -->
+    <script src="index.js"></script>
+
+</body>
+
+</html>
